@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
         vector<vector<int>> res;
-        //if (numRows == 0) return res;
+        //if (numRows == 0) return res; as 1 <= numRows <= 30
         //base case
         res.push_back({1});      //row 1 setup
         //from row2 onwards
